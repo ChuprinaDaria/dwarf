@@ -129,7 +129,7 @@ async def payment(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == "__main__":
     # Ініціалізація бота
-    app = ApplicationBuilder().token("8134440308:AAG88BgVnDzpuAQEaWudB83raHHKY6RDDOM").build()
+    app = ApplicationBuilder().token("11111111111").build()
 
     # Додавання обробників команд
     app.add_handler(CommandHandler("start", start))
