@@ -4,8 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 import logging
 
 # Налаштування Stripe API
-stripe.api_key = "sk_test_51QmFzGE6VpnGGZQ61fxetmfFD94VYtIOt13NKKmMLTAZkQPKZvjQEvkdqAsE2Ir0XuMYhCtkoWnr4oPy9FlRk8KY00RB4gxiho"  # Замініть на ваш Stripe Secret Key
-
+stripe.api_key = "sk_test_111111111111"  # Замініть на ваш Stripe Secret Key
 # Налаштування логування
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
